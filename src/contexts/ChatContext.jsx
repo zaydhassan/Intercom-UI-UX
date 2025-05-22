@@ -14,13 +14,13 @@ export const ChatProvider = ({ children }) => {
       avatar: entry.avatar,
       lastMessage: entry.lastMessage,
       timeAgo: entry.time,
-      status: "online", // placeholder status
+      status: "online", 
       closed: false,
       messages: messageMap[entry.id] || [],
       email: `${entry.user.split(" ").join(".").toLowerCase()}@example.com`,
-      location: "New York, USA", // placeholder
-      device: "iPhone",           // placeholder
-      browser: "Safari",          // placeholder
+      location: "New York, USA", 
+      device: "iPhone",           
+      browser: "Safari",          
     }))
   );
 

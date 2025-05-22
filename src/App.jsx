@@ -13,7 +13,7 @@ function App() {
     <ChatProvider>
       <div className="h-screen flex flex-col">
         <header className="flex items-center justify-between p-4 bg-white dark:bg-intercom-darkAccent border-b dark:border-gray-700">
-          <h1 className="text-xl font-bold">Admin Panel</h1>
+          <h1 className="text-xl font-bold">ADMIN PANEL</h1>
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition"

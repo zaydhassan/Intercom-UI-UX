@@ -10,7 +10,6 @@ const Dashboard = () => {
 
   return (
     <div className="h-full w-full overflow-hidden">
-      {/* Desktop layout */}
       <div className="hidden md:grid md:grid-cols-[4rem_18rem_1fr_22rem] h-full">
         <Sidebar />
         <InboxList />
@@ -18,7 +17,6 @@ const Dashboard = () => {
         <AICopilotPanel />
       </div>
 
-      {/* Mobile layout with animation */}
       <div className="md:hidden relative w-full h-full overflow-hidden">
         <AnimatePresence mode="wait">
           {selectedChat === null || selectedChat === undefined ? (

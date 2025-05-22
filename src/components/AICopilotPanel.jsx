@@ -94,7 +94,7 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
 
   const renderDetailsTab = () => (
     <div className="p-4 flex-1 overflow-y-auto space-y-6 text-sm text-gray-800 dark:text-gray-200">
-      {/* USER HEADER */}
+   
       <div className="flex items-center gap-3">
         <img
           src="https://randomuser.me/api/portraits/women/44.jpg"
@@ -110,7 +110,6 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
         </div>
       </div>
 
-      {/* ASSIGNEE */}
       <div className="space-y-2">
         <p className="uppercase text-[11px] text-gray-400 dark:text-gray-500 tracking-wide mb-1">Assignee</p>
         <div className="flex items-center gap-2">
@@ -120,7 +119,6 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
         </div>
       </div>
 
-      {/* TEAM */}
       <div className="space-y-2">
         <p className="uppercase text-[11px] text-gray-400 dark:text-gray-500 tracking-wide mb-1">Team</p>
         <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
@@ -130,7 +128,6 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
 
       <hr className="border-t border-gray-200 dark:border-gray-700 my-3" />
 
-      {/* USER INFO */}
       <div className="space-y-2">
         <p className="uppercase text-[11px] text-gray-400 dark:text-gray-500 tracking-wide mb-1">User Info</p>
         <div className="space-y-1 text-gray-700 dark:text-gray-300">
@@ -149,7 +146,6 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
         </div>
       </div>
 
-      {/* COMPANY INFO */}
       <div className="space-y-2">
         <p className="uppercase text-[11px] text-gray-400 dark:text-gray-500 tracking-wide mb-1">Company</p>
         <div className="space-y-1 text-gray-700 dark:text-gray-300">
@@ -169,7 +165,6 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
 
   return (
     <div className="w-[22rem] bg-white dark:bg-intercom-darkAccent border-l border-gray-200 dark:border-gray-700 flex flex-col h-full">
-      {/* Tabs */}
       <div className="flex border-b border-gray-200 dark:border-gray-600 text-sm">
         <button
           onClick={() => setTab("copilot")}
@@ -193,7 +188,6 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
         </button>
       </div>
 
-      {/* Animated tab content */}
       <AnimatePresence mode="wait">
         <motion.div
           key={tab}
@@ -207,7 +201,6 @@ Note: We can only refund orders placed within the last 60 days. Your item must m
         </motion.div>
       </AnimatePresence>
 
-      {/* Input box for copilot tab */}
       {tab === "copilot" && (
         <div className="border-t border-gray-200 dark:border-gray-600 p-3">
           <input

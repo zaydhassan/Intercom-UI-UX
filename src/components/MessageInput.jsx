@@ -60,7 +60,6 @@ const MessageInput = () => {
       startTag + selected + endTag +
       text.slice(end);
     setText(newText);
-    // Move cursor to end of inserted text
     setTimeout(() => {
       textarea.focus();
       textarea.selectionStart = textarea.selectionEnd =

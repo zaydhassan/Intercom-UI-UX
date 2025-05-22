@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const Sidebar = () => {
-  const [activeIndex, setActiveIndex] = useState(1); // Inbox as default
+  const [activeIndex, setActiveIndex] = useState(1); 
 
   const items = [
     { icon: <FaHome />, label: "Home" },
