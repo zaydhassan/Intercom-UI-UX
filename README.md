@@ -28,7 +28,5 @@ This is a simple and modern admin chat panel inspired by Intercom. It allows an 
 
 1. Clone the project:
 git clone https://github.com/your-username/admin-chat-panel.git
-2. Install the necessary dependencies
-   npm install
-3. Run the project
-   npm run dev
+2. Install the necessary dependencies: npm install
+3. Run the project: npm run dev
